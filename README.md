@@ -22,7 +22,8 @@ data/taxonomy.json   # Canonical categories: name, description, keywords
 requirements.txt     # Dependencies
 ```
 
-The **Streamlit frontend is already provided**. You implement the backend
+The **Streamlit frontend is already provided**. Feel free to modify the frontend.
+You have to implement the backend
 function `triage_inquiry(query, top_k, confidence_threshold)` in `app/app.py`
 (you may delegate to `src/main.py`).
 
